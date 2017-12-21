@@ -10,7 +10,7 @@ Installation
 ------------
  - Create virtual env `python -m venv env`
  - Activate env `source env/bin/activate`
- - Install requirements `pip install -r requirements.txt`
+ - Install pikacung `pip install pikacung`
 
 Example Usage
 -------------
