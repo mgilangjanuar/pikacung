@@ -19,8 +19,8 @@ Example Usage
 from pikacung import Publish
 
 
-publish = Publish()
-publish.publish('EX_PING', 'ping', {'pong': 1}, type='direct')
+publisher = Publish()
+publisher.publish('EX_PING', 'ping', {'pong': 1}, type='direct')
 ```
  - Example consumer
 ```
