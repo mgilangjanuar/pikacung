@@ -4,8 +4,8 @@ import pika
 
 class Consume(Base):
 
-    def __init__(self, callback, host='localhost', port=5672, username='guest', password='guest'):
-        super().__init__(host, port, username, password)
+    def __init__(self, callback, host='localhost', port=5672, virtual_host='/', username='guest', password='guest'):
+        super().__init__(host, port, virtual_host, username, password)
         self.callback = callback
         self.before_consuming = None
     
